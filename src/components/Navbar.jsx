@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Cpu, LayoutDashboard, FilePlus, Code2, Bell, User } from 'lucide-react';
+import { Cpu, LayoutDashboard, FilePlus, Code2, Bell, User, LogIn } from 'lucide-react';
 
 const Navbar = () => {
   const location = useLocation();
@@ -85,21 +85,9 @@ const Navbar = () => {
             <Bell size={18} />
           </button>
           
-          <div style={{
-            width: '32px',
-            height: '32px',
-            borderRadius: '50%',
-            background: 'var(--primary-light)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: 'var(--primary)',
-            fontWeight: 700,
-            fontSize: '0.75rem',
-            border: '1.5px solid var(--primary)'
-          }}>
-            H
-          </div>
+          <Link to="/login" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}>
+            <LogIn size={16} /> Login
+          </Link>
         </div>
       </div>
     </nav>
