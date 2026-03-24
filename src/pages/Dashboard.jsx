@@ -35,7 +35,7 @@ const Dashboard = () => {
           animate={{ opacity: 1, y: 0 }}
           style={{ fontSize: '3rem', marginBottom: '1rem', color: 'var(--primary)' }}
         >
-          AutoIoT Studio
+          Sensify
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}

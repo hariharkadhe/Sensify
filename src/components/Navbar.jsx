@@ -44,7 +44,7 @@ const Navbar = () => {
           }}>
             <Cpu size={24} />
           </div>
-          <span style={{ fontFamily: 'var(--font-display)' }}>AutoIoT Studio</span>
+          <span style={{ fontFamily: 'var(--font-display)' }}>Sensify</span>
         </Link>
 
         <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
