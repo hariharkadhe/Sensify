@@ -1,16 +1,40 @@
-# React + Vite
+# Sensify - Intelligent No-Code IoT Project Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Sensify** is a professional-grade, no-code platform designed for engineers, students, and hobbyists. It simplifies the complex process of IoT project creation by providing:
 
-Currently, two official plugins are available:
+🔹 **Intelligent Hardware Selection**: AI-powered sensor recommendations based on project type.
+🔹 **Auto-Code Generation**: Tailored C++/Arduino code for ESP32, Arduino, and more.
+🔹 **Hardware Connection Maps**: Pin-to-pin wiring diagrams for precise assembly.
+🔹 **Live Data Simulation**: Real-time JSON preview of device data flows.
+🔹 **Deployment Ready**: Step-by-step guides for Arduino IDE and Thonny.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built with **React 19**, **Vite**, and **Framer Motion** for a premium, responsive experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏃 How to Run Locally
 
-## Expanding the ESLint configuration
+1. **Clone the repository**:
+   ```powershell
+   git clone https://github.com/hariharkadhe/Sensify.git
+   ```
+2. **Navigate to the folder**:
+   ```powershell
+   cd Sensify
+   ```
+3. **Install dependencies**:
+   ```powershell
+   npm install
+   ```
+4. **Start the dev server**:
+   ```powershell
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Deployment
+This project is configured for easy deployment on **Vercel**. Simply connect your GitHub repository to Vercel and it will automatically build and deploy.
+
+### Vercel Configuration
+The project includes a `vercel.json` for proper SPA routing to handle React Router paths.
